@@ -8,6 +8,10 @@ public class EmployeeBO {
 	private double gross;
 	private double netsal;
 	
+	
+	public EmployeeBO() {
+		System.out.println("EmployeeBO 0-param constructor");
+	}
 	public String getName() {
 		return name;
 	}
