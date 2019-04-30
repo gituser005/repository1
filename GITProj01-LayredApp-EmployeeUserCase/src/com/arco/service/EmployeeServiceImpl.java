@@ -29,7 +29,10 @@ public class EmployeeServiceImpl {
 			tax=0.0;
 		}
 			else if(gross>1000000) {
-				tax=(gross*0.7);		//try to change
+
+				//tax=(gross*0.7);		//try to change
+				//tax=(gross*0.5);		//modify 0.3 to 0.5
+				tax=(gross*0.4);		//modify 0.5 to 0.4
 		}
 		else 
 			tax=(gross*0.2);
