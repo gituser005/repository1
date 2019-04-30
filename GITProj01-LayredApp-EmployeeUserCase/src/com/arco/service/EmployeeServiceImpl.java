@@ -26,7 +26,7 @@ public class EmployeeServiceImpl {
 		gross=(basic*12)+overtime+bonous;
 		
 		if(gross<500000) {
-			tax=0.0;
+			tax=0.1;		//new branch created & changes made
 		}
 			else if(gross>1000000) {
 
